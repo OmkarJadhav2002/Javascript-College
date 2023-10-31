@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Assignment 9</title>
+  </head>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Assignment 9</title>
+    </head>
+    <body style="text-align: left">
+      <div>
+        <h2>
+          Name: Omkar Jadhav <br />
+          Roll No: 42229 <br />
+          Batch: Q6
+        </h2>
+        <h1>JavaScript DOM and Data Validation</h1>
+      </div>
+      <hr />
+      <div class="container">
+        <form
+          action="#"
+          name="StudentRegistration"
+          id="formm"
+          onsubmit="return validate();"
+        >
+          <div>
+            <label for="textname">Name:</label>
+            <input type="text" name="textnames" id="textname" size="40" />
+            <div id="namec" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <label for="emailid">EmailId:</label>
+            <input type="text" name="emailid" id="emailid" size="30" />
+            <div id="emailc" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <label for="mobileno">MobileNo:</label>
+            <input type="text" name="mobileno" id="mobileno" size="30" />
+            <div id="mobc" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" size="30" />
+            <div id="cityc" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <label for="State">State:</label>
+            <input type="text" name="State" id="State" size="30" />
+            <div id="statec" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <label for="Gender">Gender:</label>
+            <select name="Gender" id="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="Address">Address:</label>
+            <input type="text" name="Address" id="Address" size="30" />
+            <div id="addc" style="color: red" class="res"></div>
+          </div>
+          <br />
+          <div>
+            <button onclick="rese()">Reset</button>
+            <input
+              type="submit"
+              value="Submit Form"
+              onclick="window.location.href = 'Welcome.html';"
+            />
+          </div>
+        </form>
+      </div>
+      <hr />
+      <script src="assignment_9.js"></script>
+    </body>
+  </html>
+</html>

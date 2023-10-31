@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String operations</title>
+    <style>
+      body {
+        text-align: left;
+        margin: 20px;
+        font-family: Arial, sans-serif;
+        background-color: lightblue;
+      }
+
+      h2 {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+      }
+
+      hr {
+        height: 2px;
+        background-color: black;
+        border: none;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+      }
+
+      input {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      span#res {
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      Name: Omkar Jadhav <br />
+      Roll no: 42229 <br />
+      Batch: Q6
+    </h2>
+    <h1>Array Operations</h1>
+    <hr />
+    <br /><br />
+    <form method="post">
+      <input type="text" id="1" value="" placeholder="Array Length" />
+      <button type="button" name="button" onclick="lengthh()">Submit</button
+      ><br /><br />
+
+      <input type="text" id="2" value="" placeholder="Array Values" />
+      <button type="button" name="button" onclick="arrayip()">Submit</button
+      ><br /><br />
+
+      <input type="text" id="delete" value="" placeholder="Element to Delete" />
+      <button type="button" name="button" onclick="del()">Delete</button
+      ><br /><br />
+
+      <input type="text" id="fnd" value="" placeholder="Element to Find" />
+      <button type="button" name="button" onclick="find()">Find</button
+      ><br /><br />
+
+      Result: <span id="res"></span><br /><br />
+
+      <button type="button" name="button" onclick="Empty()">Empty Array</button>
+      <button type="button" name="button" onclick="Display()">
+        Display Array</button
+      ><br /><br />
+    </form>
+
+    <script src="assignment_6.js"></script>
+  </body>
+</html>
